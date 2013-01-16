@@ -1,0 +1,18 @@
+[global_config]
+  title_transmit_bg_color = "#606060"
+  title_inactive_fg_color = "#1a1a1a"
+[keybindings]
+[profiles]
+  [[default]]
+    use_system_font = False
+    font = Source Code Pro Semi-Bold 11
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
